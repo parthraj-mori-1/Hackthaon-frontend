@@ -106,7 +106,7 @@ function App() {
       <div className="main-content">
         {/* Header */}
         <div className="chat-header">
-          <h1>🤖 Hackathon Bedrock Chatbot</h1>
+          <h1>🤖 Sales Assistant ChatBot</h1>
         </div>
 
         {/* Chat Messages */}
