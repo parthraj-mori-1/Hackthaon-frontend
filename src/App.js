@@ -30,7 +30,7 @@ function App() {
   };
 
   const pollForResult = async (jobId) => {
-    const maxAttempts = 60; // 2 minutes with 2-second intervals
+    const maxAttempts = 300; // 2 minutes with 2-second intervals
     
     for (let attempt = 0; attempt < maxAttempts; attempt++) {
       await new Promise(resolve => setTimeout(resolve, 2000)); // Wait 2 seconds
